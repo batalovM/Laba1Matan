@@ -1,5 +1,5 @@
 ﻿namespace ConsoleApp1;
-
+using MathNet.Numerics;
 public class Newton
 {
     private float _x0;
@@ -23,4 +23,5 @@ public class Newton
             Console.WriteLine($"Корень: {x1}");
         }
     }
+    
 }
