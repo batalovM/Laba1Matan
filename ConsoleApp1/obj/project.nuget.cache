@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "L4LPMpGYunY0n/XIhl9jGDzlrLtfoGprQKLZKi985MTwK+Me6yGMxishV6Jhqz/kls81em7Dcn+LWBUnLlV8Pg==",
+  "dgSpecHash": "YMx7u1mUR0VP4HMFNAYBR6b8Ta+4HOqA2Y6ZMyzUDXFvAItslEs4fdicpQzzQJ7KSqRKI8D40a7hUyfwkGHHIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\batal\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\Users\\sasha\\RiderProjects\\Laba1Matan\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\batal\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\batal\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\batal\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\batal\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
+    "C:\\Users\\sasha\\.nuget\\packages\\mathnet.numerics\\6.0.0-beta1\\mathnet.numerics.6.0.0-beta1.nupkg.sha512",
+    "C:\\Users\\sasha\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\sasha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\sasha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\sasha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }
