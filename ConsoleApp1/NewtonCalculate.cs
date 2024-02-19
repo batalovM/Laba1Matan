@@ -20,14 +20,14 @@ public class NewtonCalculate
 
     public void Calculate_ExperimentalValue(Func<float, float> f1, Func<float, float> df1)
     {
-        var newton5 = new Newton(-4.0f, 0.0000001f, f1, df1);
-        var newton6 = new Newton(-1.5f, 0.0000001f, f1, df1);
-        var newton7 = new Newton(0.5f, 0.0000001f, f1, df1);
-        var newton8 = new Newton(4.0f, 0.0000001f, f1, df1);
+        var newton5 = new Newton(-4.0f, 0.01f, f1, df1);
+        var newton6 = new Newton(-1.5f, 0.01f, f1, df1);
+        var newton7 = new Newton(0.5f, 0.01f, f1, df1);
+        var newton8 = new Newton(4.0f, 0.01f, f1, df1);
         
         var list2 = new List<Newton> { newton5, newton6, newton7, newton8};
         
-        Console.WriteLine("Посчитано методом Ньютона c другой точностью");
+        Console.WriteLine("Посчитано методом Ньютона c экспериментальной точностью");
         foreach (var root in list2)
         {
             root.NewtonSolution();

@@ -20,11 +20,11 @@ public abstract class Solution
         var df1 = Derivative(f1);
         var dxf2 = Derivative(f2);
 
-        var newtonCalc = new NewtonCalculate();
-        newtonCalc.CalculateAll(eps, f1, df1 , f2, dxf2);
-
-        var simpleIterationCalc = new SimpleIterationsCalculate();
-        simpleIterationCalc.CalculateAll(eps, f1 , df1, f2, dxf2);
+        // var newtonCalc = new NewtonCalculate();
+        // newtonCalc.CalculateAll(eps, f1, df1 , f2, dxf2);
+        //
+        // var simpleIterationCalc = new SimpleIterationsCalculate();
+        // simpleIterationCalc.CalculateAll(eps, f1 , df1, f2, dxf2);
 
         var secantCalc = new SecantCalculate();
         secantCalc.CalculateAll(eps, f1, f2);
