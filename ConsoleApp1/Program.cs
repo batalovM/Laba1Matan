@@ -19,13 +19,6 @@ public abstract class Solution
         Func<float, float> f2 = x0 => (float)(100 * Math.Pow(x0, 2) - 10000 * x0 - 3);
         var df1 = Derivative(f1);
         var dxf2 = Derivative(f2);
-
-        // var newtonCalc = new NewtonCalculate();
-        // newtonCalc.CalculateAll(eps, f1, df1 , f2, dxf2);
-        //
-        // var simpleIterationCalc = new SimpleIterationsCalculate();
-        // simpleIterationCalc.CalculateAll(eps, f1 , df1, f2, dxf2);
-
         var secantCalc = new SecantCalculate();
         secantCalc.CalculateAll(eps, f1, f2);
     }
